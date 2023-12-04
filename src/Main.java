@@ -100,12 +100,12 @@ public class Main {
         var Human = generalTime/individualTime;
         System.out.println("Всего работников в компании — "+ Human +" человек");
         Human = Human + 94;
-        individualTime = generalTime/Human;
-        var Remainder = generalTime % Human;
+        individualTime =Human*individualTime;
+
 
         System.out.println("Если в компании работает "+Human+" человек, то всего "+ individualTime + " часов\n" +
                 "        работы может быть поделено между сотрудниками" );
-        System.out.println("остаток нераспределенных часов = "+ Remainder);
+
 
 
 
