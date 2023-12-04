@@ -103,7 +103,7 @@ public class Main {
         individualTime =humanCount *individualTime;
 
 
-        System.out.println("Если в компании работает "+Human+" человек, то всего "+ individualTime + " часов\n" +
+        System.out.println("Если в компании работает "+humanCount +" человек, то всего "+ individualTime + " часов\n" +
                 "        работы может быть поделено между сотрудниками" );
 
 
