@@ -97,10 +97,10 @@ public class Main {
         System.out.println("Задача N8");
         var generalTime = 640;
         var individualTime = 8;
-        var Human = generalTime/individualTime;
-        System.out.println("Всего работников в компании — "+ Human +" человек");
-        Human = Human + 94;
-        individualTime =Human*individualTime;
+        var humanCount  = generalTime/individualTime;
+        System.out.println("Всего работников в компании — "+ humanCount  +" человек");
+        humanCount  = humanCount  + 94;
+        individualTime =humanCount *individualTime;
 
 
         System.out.println("Если в компании работает "+Human+" человек, то всего "+ individualTime + " часов\n" +
